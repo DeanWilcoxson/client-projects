@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import { VideoBg, HeroBg } from "./video/videoElements.js";
-import { Routes, Route } from "react-router-dom";
-import video from './video/car-closeup.mp4';
+import { Routes, Route, } from "react-router-dom";
+import video from "./video/car-closeup.mp4";
 
 const App = () => {
   return (
@@ -9,14 +9,11 @@ const App = () => {
       <HeroBg>
         <VideoBg autoPlay loop muted src={video} type="video/mp4" />
       </HeroBg>
-      
-      
       <Routes>
         <Route></Route>
       </Routes>
     </div>
-  )
-
+  );
 };
 
 export default App;
