@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rHCsh4QCmsIp2Y-mL9lZ" name="Page-1">
-        <mxGraphModel dx="1451" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1451" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -39,6 +39,9 @@
                 </mxCell>
                 <mxCell id="18" value="Copyright DB Development LLC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
                     <mxGeometry x="260" y="690" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="video playing in background" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="200" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
