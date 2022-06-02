@@ -7,14 +7,11 @@ const App = () => {
       <HeroBg>
         <VideoBg autoPlay loop muted src={video} type="video/mp4" />
       </HeroBg>
-      
-      
       <Routes>
         <Route></Route>
       </Routes>
     </div>
-  )
-
+  );
 };
 
 export default App;
