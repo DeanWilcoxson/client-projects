@@ -1,14 +1,11 @@
 import React from "react";
-import { VideoBg, HeroBg } from "./video/videoElements.js";
-import { Routes, Route, } from "react-router-dom";
-import video from "./video/car-closeup.mp4";
+import Landing from "./components/global/landing-page";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <div>
-      <HeroBg>
-        <VideoBg autoPlay loop muted src={video} type="video/mp4" />
-      </HeroBg>
+      <Landing />
       <Routes>
         <Route></Route>
       </Routes>
