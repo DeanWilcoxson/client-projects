@@ -1,6 +1,7 @@
 import React from "react";
 import {
   LandingContainer,
+  LandingLogo,
   LandingBox,
   OptionsBox,
   OptionsButton,
@@ -10,9 +11,11 @@ import {
 import car from "./../../../images/CarTint.jpg";
 import house from "./../../../images/ResidentialTint.jpg";
 import business from "./../../../images/BusinessTint.jpg";
+import logo from "./../../../images/OakdaleWindowTintLogo.jpg";
 const Landing = () => {
   return (
     <LandingContainer>
+      <LandingLogo src={logo} />
       <LandingBox>
         <OptionsBox>
           <OptionsButton>
