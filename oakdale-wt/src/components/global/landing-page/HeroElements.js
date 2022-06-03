@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "./../../../notes/50 Blizzards.ttf";
 export const LandingContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -28,7 +29,10 @@ export const OptionsButton = styled.a`
   align-items: center;
   border-radius: 50%;
 `;
-export const OptionsText = styled.b``;
+export const OptionsText = styled.b`
+  font-family: "50 Blizzards";
+  font-size: 20px;
+`;
 export const OptionsImage = styled.img`
   width: 50%;
   /* height: 25%; */
