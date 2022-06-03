@@ -5,24 +5,31 @@ import {
   OptionsBox,
   OptionsButton,
   OptionsText,
+  OptionsImage,
 } from "./HeroElements";
+import car from "./../../../images/CarTint.jpg";
+import house from "./../../../images/ResidentialTint.jpg";
+import business from "./../../../images/BusinessTint.jpg";
 const Landing = () => {
   return (
     <LandingContainer>
       <LandingBox>
         <OptionsBox>
           <OptionsButton>
-            <OptionsText></OptionsText>
+            <OptionsImage src={car} />
+            <OptionsText>Automotive</OptionsText>
           </OptionsButton>
         </OptionsBox>
         <OptionsBox>
           <OptionsButton>
-            <OptionsText></OptionsText>
+            <OptionsImage src={house} />
+            <OptionsText>Residential</OptionsText>
           </OptionsButton>
         </OptionsBox>
         <OptionsBox>
           <OptionsButton>
-            <OptionsText></OptionsText>
+            <OptionsImage src={business} />
+            <OptionsText>Commercial</OptionsText>
           </OptionsButton>
         </OptionsBox>
       </LandingBox>
