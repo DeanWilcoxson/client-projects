@@ -25,14 +25,14 @@ const Landing = () => {
         </OptionsBox>
         <OptionsBox>
           <OptionsButton>
-            <OptionsImage src={house} />
-            <OptionsText>Residential</OptionsText>
+            <OptionsImage src={business} />
+            <OptionsText>Commercial</OptionsText>
           </OptionsButton>
         </OptionsBox>
         <OptionsBox>
           <OptionsButton>
-            <OptionsImage src={business} />
-            <OptionsText>Commercial</OptionsText>
+            <OptionsImage src={house} />
+            <OptionsText>Residential</OptionsText>
           </OptionsButton>
         </OptionsBox>
       </LandingBox>

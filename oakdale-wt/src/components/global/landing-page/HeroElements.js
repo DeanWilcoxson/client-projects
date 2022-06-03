@@ -14,6 +14,7 @@ export const LandingLogo = styled.img`
 export const LandingBox = styled.div`
   display: flex;
   flex-direction: row;
+  margin: 30px;
 `;
 export const OptionsBox = styled.div`
   width: 33.3%;
