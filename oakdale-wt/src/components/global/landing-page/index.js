@@ -1,4 +1,5 @@
 import React from "react";
+// import {Routes, Route} from 'react-router-dom'
 import {
   LandingContainer,
   LandingLogo,
@@ -23,7 +24,7 @@ const Landing = () => {
             <OptionsText>Automotive</OptionsText>
           </OptionsButton>
         </OptionsBox>
-        <OptionsBox>
+        <OptionsBox exact path="" element="">
           <OptionsButton>
             <OptionsImage src={business} />
             <OptionsText>Commercial</OptionsText>

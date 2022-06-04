@@ -1,3 +1,4 @@
+// import {Route} from "react-router-dom";
 import styled from "styled-components";
 import "./../../../notes/50 Blizzards.ttf";
 export const LandingContainer = styled.div`
@@ -30,7 +31,7 @@ export const OptionsButton = styled.a`
   align-items: center;
   border-radius: 50%;
 `;
-export const OptionsText = styled.b`
+export const OptionsText = styled.p`
   font-family: "50 Blizzards";
   font-size: 20px;
 `;
