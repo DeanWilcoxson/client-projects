@@ -12,31 +12,48 @@ import car from "./../../../images/CarTint.jpg";
 import house from "./../../../images/ResidentialTint.jpg";
 import business from "./../../../images/BusinessTint.jpg";
 import logo from "./../../../images/OakdaleWindowTintLogo.jpg";
+import { Link } from 'react-router-dom'
+
+
 const Landing = () => {
   return (
+
     <LandingContainer>
       <LandingLogo src={logo} />
+
       <LandingBox>
         <OptionsBox>
-          <OptionsButton>
-            <OptionsImage src={car} />
-            <OptionsText>Automotive</OptionsText>
-          </OptionsButton>
+          <Link to='/automotive'>
+            <OptionsButton>
+              <OptionsImage src={car} />
+              <OptionsText>Automotive</OptionsText>
+            </OptionsButton>
+          </Link>
+
         </OptionsBox>
         <OptionsBox>
-          <OptionsButton>
-            <OptionsImage src={business} />
-            <OptionsText>Commercial</OptionsText>
-          </OptionsButton>
+          <Link to='/commercial'>
+            <OptionsButton>
+              <OptionsImage src={business} />
+              <OptionsText>Commercial</OptionsText>
+            </OptionsButton>
+          </Link>
+
         </OptionsBox>
         <OptionsBox>
-          <OptionsButton>
-            <OptionsImage src={house} />
-            <OptionsText>Residential</OptionsText>
-          </OptionsButton>
+          <Link to='/residential'>
+            <OptionsButton>
+              <OptionsImage src={house} />
+              <OptionsText>Residential</OptionsText>
+            </OptionsButton>
+          </Link>
         </OptionsBox>
+
       </LandingBox>
+
+
     </LandingContainer>
+
   );
 };
 export default Landing;
