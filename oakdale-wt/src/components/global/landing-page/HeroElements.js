@@ -16,13 +16,14 @@ export const LandingBox = styled.div`
   flex-direction: row;
   margin: 30px;
 `;
-export const OptionsBox = styled.div`
+export const OptionBox = styled.div`
   width: 33.3%;
   text-align: center;
 `;
-export const OptionsButton = styled.a`
+export const Option = styled.span`
+  color: black;
   &:hover {
-    color: blue;
+    color: green;
   }
   display: flex;
   flex-direction: column;
@@ -30,12 +31,12 @@ export const OptionsButton = styled.a`
   align-items: center;
   border-radius: 50%;
 `;
-export const OptionsText = styled.b`
+export const OptionText = styled.a`
+  text-decoration: none;
   font-family: "50 Blizzards";
   font-size: 20px;
 `;
-export const OptionsImage = styled.img`
+export const OptionImage = styled.img`
   width: 50%;
-  /* height: 25%; */
   border-radius: 50%;
 `;
