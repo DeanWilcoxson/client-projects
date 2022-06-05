@@ -9,7 +9,7 @@ export const LandingContainer = styled.div`
   padding: 0;
 `;
 export const LandingLogo = styled.img`
-  width: 30%;
+  width: 20%;
 `;
 export const LandingBox = styled.div`
   display: flex;
@@ -35,8 +35,12 @@ export const OptionText = styled.a`
   text-decoration: none;
   font-family: "50 Blizzards";
   font-size: 20px;
+  padding: 20px;
 `;
 export const OptionImage = styled.img`
-  width: 50%;
-  border-radius: 50%;
+  width: 60%;
+  border-radius: 25%;
+`;
+export const HorizontalRule = styled.hr`
+  width: 90%;
 `;

@@ -7,6 +7,7 @@ import {
   Option,
   OptionText,
   OptionImage,
+  HorizontalRule,
 } from "./HeroElements";
 import car from "./../../../images/CarTint.jpg";
 import house from "./../../../images/ResidentialTint.jpg";
@@ -18,6 +19,7 @@ const Landing = () => {
   return (
     <LandingContainer>
       <LandingLogo src={logo} />
+      <HorizontalRule />
       <LandingBox>
         <OptionBox>
           <Link to="/automotive">
@@ -27,6 +29,7 @@ const Landing = () => {
             </Option>
           </Link>
         </OptionBox>
+        <hr />
         <OptionBox>
           <Link to="/commercial">
             <Option>
@@ -35,6 +38,7 @@ const Landing = () => {
             </Option>
           </Link>
         </OptionBox>
+        <hr />
         <OptionBox>
           <Link to="/residential">
             <Option>
