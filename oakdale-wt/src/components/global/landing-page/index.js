@@ -3,57 +3,52 @@ import {
   LandingContainer,
   LandingLogo,
   LandingBox,
-  OptionsBox,
-  OptionsButton,
-  OptionsText,
-  OptionsImage,
+  OptionBox,
+  Option,
+  OptionText,
+  OptionImage,
+  HorizontalRule,
 } from "./HeroElements";
 import car from "./../../../images/CarTint.jpg";
 import house from "./../../../images/ResidentialTint.jpg";
 import business from "./../../../images/BusinessTint.jpg";
 import logo from "./../../../images/OakdaleWindowTintLogo.jpg";
-import { Link } from 'react-router-dom'
-
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
-
     <LandingContainer>
       <LandingLogo src={logo} />
-
+      <HorizontalRule />
       <LandingBox>
-        <OptionsBox>
-          <Link to='/automotive'>
-            <OptionsButton>
-              <OptionsImage src={car} />
-              <OptionsText>Automotive</OptionsText>
-            </OptionsButton>
+        <OptionBox>
+          <Link to="/automotive">
+            <Option>
+              <OptionImage src={car} />
+              <OptionText>Automotive</OptionText>
+            </Option>
           </Link>
-
-        </OptionsBox>
-        <OptionsBox>
-          <Link to='/commercial'>
-            <OptionsButton>
-              <OptionsImage src={business} />
-              <OptionsText>Commercial</OptionsText>
-            </OptionsButton>
+        </OptionBox>
+        <hr />
+        <OptionBox>
+          <Link to="/commercial">
+            <Option>
+              <OptionImage src={business} />
+              <OptionText>Commercial</OptionText>
+            </Option>
           </Link>
-
-        </OptionsBox>
-        <OptionsBox>
-          <Link to='/residential'>
-            <OptionsButton>
-              <OptionsImage src={house} />
-              <OptionsText>Residential</OptionsText>
-            </OptionsButton>
+        </OptionBox>
+        <hr />
+        <OptionBox>
+          <Link to="/residential">
+            <Option>
+              <OptionImage src={house} />
+              <OptionText>Residential</OptionText>
+            </Option>
           </Link>
-        </OptionsBox>
-
+        </OptionBox>
       </LandingBox>
-
-
     </LandingContainer>
-
   );
 };
 export default Landing;
