@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Automotive from "./components/parent/Automotive";
 import Residential from "./components/parent/Residential";
 import Commercial from "./components/parent/Commercial";
+import Footer from "./components/global/footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/residential" element={<Residential />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 };
