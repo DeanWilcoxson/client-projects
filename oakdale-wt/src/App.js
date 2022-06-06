@@ -5,8 +5,11 @@ import Automotive from "./components/parent/Automotive";
 import Residential from "./components/parent/Residential";
 import Commercial from "./components/parent/Commercial";
 import Footer from "./components/global/footer";
+import ResidentialGallery from "./components/parent/Residential/ResidentialGallery";
+import ResidentialContact from './components/parent/Residential/ResidentialContact'
 
 const App = () => {
+
   return (
     <div>
       <Router>
@@ -15,6 +18,11 @@ const App = () => {
           <Route path="/automotive" element={<Automotive />} />
           <Route path="/commercial" element={<Commercial />} />
           <Route path="/residential" element={<Residential />} />
+
+          {/* RESIDENTIAL ROUTES -- unable to get browserrouter to work on Resi Home, will revisit later */}
+          <Route path='/residential/gallery' element={<ResidentialGallery />} />
+          <Route path='/residential/contact' element={<ResidentialContact />} />
+
         </Routes>
       </Router>
       <Footer />
