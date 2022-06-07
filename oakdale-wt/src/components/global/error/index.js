@@ -1,9 +1,11 @@
-function Error() {
-    return ( 
-        <div>
-            <h1>Error, that page does not exist!</h1>
-        </div>
-     );
-}
-
-export default Error;
+import React from "react";
+import { ErrorContainer, ErrorBox, ErrorText } from "./ErrorElements";
+export const Error = () => {
+  return (
+    <ErrorContainer>
+      <ErrorBox>
+        <ErrorText>Error, that page does not exist!</ErrorText>
+      </ErrorBox>
+    </ErrorContainer>
+  );
+};

@@ -8,9 +8,7 @@ export const LandingContainer = styled.div`
   margin: 0;
   padding: 0;
 `;
-export const LandingLogo = styled.img`
-  width: 20%;
-`;
+
 export const LandingBox = styled.div`
   display: flex;
   flex-direction: row;
@@ -41,6 +39,4 @@ export const OptionImage = styled.img`
   width: 60%;
   border-radius: 25%;
 `;
-export const HorizontalRule = styled.hr`
-  width: 90%;
-`;
+
