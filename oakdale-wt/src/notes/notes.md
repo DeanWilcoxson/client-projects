@@ -16,3 +16,6 @@ Initial Thoughts:
             also include a toggle button or something that switches between the three, and shows a form that will have different questions based on the type of service needed.
     Galleries will need to be replicated somehow as well.
     Owner sign-in to manage pictures db.
+
+SPA based on selection from landing page. 
+What is 50 Blizzards.ttf?

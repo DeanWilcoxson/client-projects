@@ -2,40 +2,47 @@ import React from "react";
 // import {Routes, Route} from 'react-router-dom'
 import {
   LandingContainer,
-  LandingLogo,
   LandingBox,
-  OptionsBox,
-  OptionsButton,
-  OptionsText,
-  OptionsImage,
+  OptionBox,
+  Option,
+  OptionText,
+  OptionImage,
 } from "./HeroElements";
 import car from "./../../../images/CarTint.jpg";
 import house from "./../../../images/ResidentialTint.jpg";
 import business from "./../../../images/BusinessTint.jpg";
-import logo from "./../../../images/OakdaleWindowTintLogo.jpg";
+import { Link } from "react-router-dom";
+
 const Landing = () => {
   return (
     <LandingContainer>
-      <LandingLogo src={logo} />
       <LandingBox>
-        <OptionsBox>
-          <OptionsButton>
-            <OptionsImage src={car} />
-            <OptionsText>Automotive</OptionsText>
-          </OptionsButton>
-        </OptionsBox>
-        <OptionsBox exact path="" element="">
-          <OptionsButton>
-            <OptionsImage src={business} />
-            <OptionsText>Commercial</OptionsText>
-          </OptionsButton>
-        </OptionsBox>
-        <OptionsBox>
-          <OptionsButton>
-            <OptionsImage src={house} />
-            <OptionsText>Residential</OptionsText>
-          </OptionsButton>
-        </OptionsBox>
+        <OptionBox>
+          <Link to="/automotive">
+            <Option>
+              <OptionImage src={car} />
+              <OptionText>Automotive</OptionText>
+            </Option>
+          </Link>
+        </OptionBox>
+        <hr />
+        <OptionBox>
+          <Link to="/commercial">
+            <Option>
+              <OptionImage src={business} />
+              <OptionText>Commercial</OptionText>
+            </Option>
+          </Link>
+        </OptionBox>
+        <hr />
+        <OptionBox>
+          <Link to="/residential">
+            <Option>
+              <OptionImage src={house} />
+              <OptionText>Residential</OptionText>
+            </Option>
+          </Link>
+        </OptionBox>
       </LandingBox>
     </LandingContainer>
   );
