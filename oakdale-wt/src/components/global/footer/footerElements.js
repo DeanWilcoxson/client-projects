@@ -13,6 +13,7 @@ export const FooterContainer = styled.div`
 export const FooterText = styled.p`
   color: white;
   text-align: center;
+  padding: 5px;
 `;
 export const FooterBold = styled.b`
   color: darkgrey;
@@ -22,4 +23,6 @@ export const FooterBold = styled.b`
 export const FooterBusinessInfoBox = styled.div`
   display: flex;
   justify-content: space-evenly;
+    margin: 1.25rem;
+
 `;
