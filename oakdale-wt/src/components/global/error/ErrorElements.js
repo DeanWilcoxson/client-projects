@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import "./../../../notes/50 Blizzards.ttf";
+
 export const ErrorContainer = styled.div`
   left: 0px;
   right: 0px;
