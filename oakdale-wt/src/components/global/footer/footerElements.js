@@ -23,6 +23,5 @@ export const FooterBold = styled.b`
 export const FooterBusinessInfoBox = styled.div`
   display: flex;
   justify-content: space-evenly;
-    margin: 1.25rem;
-
+  margin: 1.25rem;
 `;
