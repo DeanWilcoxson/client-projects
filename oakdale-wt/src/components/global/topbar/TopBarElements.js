@@ -16,7 +16,7 @@ export const TopContainer = styled.div`
 export const LandingLogo = styled.img`
   width: 20%;
   cursor: pointer;
-  margin: 2rem;
+  margin-bottom: 5px;
 `;
 export const HorizontalRule = styled.hr`
   width: 90%;
