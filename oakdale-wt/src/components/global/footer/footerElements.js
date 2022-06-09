@@ -13,6 +13,7 @@ export const FooterContainer = styled.div`
 export const FooterText = styled.p`
   color: white;
   text-align: center;
+  padding: 5px;
 `;
 export const FooterBold = styled.b`
   color: darkgrey;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import "./../../../notes/50 Blizzards.ttf";
 export const LandingContainer = styled.div`
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +22,7 @@ export const OptionBox = styled.div`
 export const Option = styled.span`
   color: black;
   &:hover {
-    color: green;
+    color: #008000ab;
   }
   display: flex;
   flex-direction: column;
@@ -34,9 +35,13 @@ export const OptionText = styled.a`
   font-family: "50 Blizzards";
   font-size: 20px;
   padding: 20px;
+  text-shadow: #252525 0.5px 0.5px 0.5px;
 `;
 export const OptionImage = styled.img`
   width: 60%;
   border-radius: 25%;
+  margin: 2rem;
+  &:hover {
+    box-shadow: #008000ab -5px 5px 5px, #008000ab 5px -5px 5px;
+  }
 `;
-

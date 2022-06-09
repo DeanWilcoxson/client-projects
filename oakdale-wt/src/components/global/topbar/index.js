@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "./../../../images/OakdaleWindowTintLogo.jpg";
-import { LandingLogo, HorizontalRule } from "./TopBarElements";
+import { TopContainer, LandingLogo, HorizontalRule } from "./TopBarElements";
 
 export const TopBar = () => {
   return (
-    <div>
+    <TopContainer>
       <LandingLogo src={logo} />
       <HorizontalRule />
-    </div>
+    </TopContainer>
   );
 };
