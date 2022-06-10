@@ -41,9 +41,9 @@ export const OptionText = styled.a`
   }
 `;
 export const OptionImage = styled.img`
-  width: 60%;
-  border-radius: 25%;
-  margin: 2rem;
+  width: 55%;
+  border-radius: 10%;
+  margin: 1rem;
   &:hover {
     box-shadow: #008000ab -5px 5px 5px, #008000ab 5px -5px 5px;
   }
