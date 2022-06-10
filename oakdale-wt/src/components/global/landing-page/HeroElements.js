@@ -10,7 +10,6 @@ export const LandingContainer = styled.div`
   margin: 0;
   padding: 0;
 `;
-
 export const LandingBox = styled.div`
   display: flex;
   flex-direction: row;
@@ -21,22 +20,25 @@ export const OptionBox = styled.div`
   text-align: center;
 `;
 export const Option = styled.span`
-  color: black;
-  &:hover {
-    color: #008000ab;
-  }
+  color: #253545b2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  &:hover {
+    color: #008000ab;
+  }
 `;
 export const OptionText = styled.a`
   text-decoration: none;
+  font-style: italic;
   font-family: "50 Blizzards";
   font-size: 20px;
-  padding: 20px;
-  text-shadow: #252525 0.5px 0.5px 0.5px;
+  text-shadow: #253545b2 0.5px 0.5px 0.5px;
+  &:hover {
+    color: #008000ab;
+  }
 `;
 export const OptionImage = styled.img`
   width: 60%;

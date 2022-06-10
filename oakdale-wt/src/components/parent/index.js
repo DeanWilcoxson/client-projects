@@ -1,4 +1,5 @@
 import React from "react";
+import { v4 as uuidv4 } from "uuid";
 import {
   ParentContainer,
   ParentBox,
@@ -10,30 +11,45 @@ import {
   ParentQuestion,
   ParentSubmitButton,
   ParentQuestionBox,
-  ParentGalleryButton,
+  ParentCommentBox,
+  QuestionBox,
 } from "./elements";
-export const Parent = () => {
+export const Parent = ({ data }) => {
+  const questionId = uuidv4();
   return (
-    <ParentContainer>
+    <ParentContainer id={data.id}>
       <ParentBox>
-        <ParentTitle></ParentTitle>
-        <ParentGalleryButton></ParentGalleryButton>
+        <ParentTitle>{data.compname}</ParentTitle>
         <ParentBody>
-          <ParentDescription></ParentDescription>
+          <ParentDescription>{data.intro}</ParentDescription>
           <ParentForm>
             <ParentQuestionBox>
-              <ParentQuestion></ParentQuestion>
-              <ParentFormInput></ParentFormInput>
-              <ParentQuestion></ParentQuestion>
-              <ParentFormInput></ParentFormInput>
-              <ParentQuestion></ParentQuestion>
-              <ParentFormInput></ParentFormInput>
-              <ParentQuestion></ParentQuestion>
-              <ParentFormInput></ParentFormInput>
-              <ParentQuestion></ParentQuestion>
-              <ParentFormInput></ParentFormInput>
+              <QuestionBox id={questionId}>
+                <ParentQuestion>{data.question1}</ParentQuestion>
+                <ParentFormInput></ParentFormInput>
+              </QuestionBox>
+              <QuestionBox id={questionId}>
+                <ParentQuestion>{data.question2}</ParentQuestion>
+                <ParentFormInput></ParentFormInput>
+              </QuestionBox>
+              <QuestionBox id={questionId}>
+                <ParentQuestion>{data.question3}</ParentQuestion>
+                <ParentFormInput></ParentFormInput>
+              </QuestionBox>
+              <QuestionBox id={questionId}>
+                <ParentQuestion>{data.question4}</ParentQuestion>
+                <ParentFormInput></ParentFormInput>
+              </QuestionBox>
+              <QuestionBox id={questionId}>
+                <ParentQuestion>{data.question5}</ParentQuestion>
+                <ParentFormInput></ParentFormInput>
+              </QuestionBox>
+              <QuestionBox>
+                <ParentQuestion>{data.comments}</ParentQuestion>
+                <ParentCommentBox></ParentCommentBox>
+              </QuestionBox>
             </ParentQuestionBox>
-            <ParentSubmitButton></ParentSubmitButton>
+            <ParentSubmitButton>Submit</ParentSubmitButton>
           </ParentForm>
         </ParentBody>
       </ParentBox>

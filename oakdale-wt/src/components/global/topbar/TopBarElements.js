@@ -9,7 +9,7 @@ export const TopContainer = styled.div`
   padding: 0;
   top: 0px;
   left: 0px;
-  position: relative;
+  position: sticky;
   z-index: 1000;
   background-color: white;
 `;

@@ -1,7 +1,8 @@
-import React from 'react'
-
+import React from "react";
+import { Parent } from "../index.js";
+import { CommData } from "../data.js";
 const Commercial = () => {
-    return <h1>COMMERCIAL PARENT</h1>
-}
+  return <Parent data={CommData} />;
+};
 
-export default Commercial
+export default Commercial;
