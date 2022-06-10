@@ -5,23 +5,21 @@ export const FooterContainer = styled.div`
   left: 0px;
   bottom: 0px;
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   width: 100%;
   background-color: #252525;
-  position: fixed;
+  position: relative;
 `;
 export const FooterText = styled.p`
   color: white;
   text-align: center;
-  padding: 5px;
+  padding: 15px;
 `;
 export const FooterBold = styled.b`
   color: darkgrey;
-  padding: 2px;
-  margin: 5px;
 `;
 export const FooterBusinessInfoBox = styled.div`
   display: flex;
   justify-content: space-evenly;
-  margin: 1.25rem;
+  margin-top: 1rem;
 `;
