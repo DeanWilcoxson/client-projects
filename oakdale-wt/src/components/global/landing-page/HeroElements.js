@@ -13,7 +13,7 @@ export const LandingContainer = styled.div`
 export const LandingBox = styled.div`
   display: flex;
   flex-direction: row;
-  margin: 30px;
+  margin: 4.5rem;
 `;
 export const OptionBox = styled.div`
   width: 33.3%;
@@ -35,7 +35,7 @@ export const OptionText = styled.a`
   font-style: italic;
   font-family: "50 Blizzards";
   font-size: 20px;
-  text-shadow: #253545b2 0.5px 0.5px 0.5px;
+  text-shadow: #25354576 1px 1px 2px;
   &:hover {
     color: #008000ab;
   }
@@ -44,7 +44,8 @@ export const OptionImage = styled.img`
   width: 55%;
   border-radius: 10%;
   margin: 1rem;
+  box-shadow: grey 5px 5px 5px;
   &:hover {
-    box-shadow: #008000ab -5px 5px 5px, #008000ab 5px -5px 5px;
+    box-shadow: #008000ab -2.5px 2.5px 5px, #008000ab 2.5px -2.5px 5px;
   }
 `;

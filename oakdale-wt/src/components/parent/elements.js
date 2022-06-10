@@ -15,6 +15,7 @@ export const ParentTitle = styled.h1`
   font-style: italic;
   font-family: "50 blizzards";
   color: #253545b2;
+  text-decoration: underline;
 `;
 export const ParentBody = styled.div`
   margin: 1rem;
@@ -25,6 +26,9 @@ export const ParentBody = styled.div`
 `;
 export const ParentDescription = styled.p`
   width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 2.5vh;
 `;
 export const ParentForm = styled.form`
   width: 100%;
