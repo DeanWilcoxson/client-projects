@@ -52,7 +52,7 @@ export const Parent = ({ data }) => {
                   rows={5}
                   maxlength="200"
                   form={data.id}
-                  placeholder="Please add any special directions and/ or special requests for your vehicle."
+                  placeholder={data.placeholderText}
                   wrap="soft"
                 ></ParentCommentBox>
               </QuestionBox>

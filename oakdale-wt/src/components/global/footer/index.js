@@ -23,12 +23,6 @@ const Footer = () => {
       </FooterBusinessInfoBox>
       <FooterBusinessHoursList>
         <FooterBusinessHourItem>
-          Sunday:
-          <FooterBusinessHourItemValue>
-            Appointment Only
-          </FooterBusinessHourItemValue>
-        </FooterBusinessHourItem>
-        <FooterBusinessHourItem>
           Monday:
           <FooterBusinessHourItemValue>
             Appointment Only
@@ -62,6 +56,12 @@ const Footer = () => {
           Saturday:
           <FooterBusinessHourItemValue>
             9:00am - 5:00pm
+          </FooterBusinessHourItemValue>
+        </FooterBusinessHourItem>
+        <FooterBusinessHourItem>
+          Sunday:
+          <FooterBusinessHourItemValue>
+            Appointment Only
           </FooterBusinessHourItemValue>
         </FooterBusinessHourItem>
       </FooterBusinessHoursList>
