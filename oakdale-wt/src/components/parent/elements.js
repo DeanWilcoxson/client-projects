@@ -62,6 +62,7 @@ export const ParentQuestion = styled.p`
 export const ParentCommentBox = styled.textarea`
   background-color: #25252525;
   border-radius: 5px;
+  border: solid 1px grey;
 `;
 export const ParentSubmitButton = styled.button`
   padding: 5px;
