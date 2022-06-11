@@ -4,6 +4,8 @@ export const AutoData = {
   compname: "Automotive",
   // bgvideo: { carvideo },
   comments: "Comments?",
+  placeholderText:
+    "Please add any special directions and/ or special requests for your Vehicle.",
   question1: "What Make?",
   question2: "What Model?",
   question3: "What Year?",
@@ -17,6 +19,8 @@ export const ResiData = {
   compname: "Residential",
   // bgvideo: {},
   comments: "Comments?",
+  placeholderText:
+    "Please add any special directions and/ or special requests for your House.",
   question1: "Number of windows?",
   question2: "Address?",
   question3: "Window Size?",
@@ -30,6 +34,8 @@ export const CommData = {
   compname: "Commercial",
   // bgvideo: {},
   comments: "Comments?",
+  placeholderText:
+    "Please add any special directions and/ or special requests for your Business.",
   question1: "Number of windows?",
   question2: "Business Address?",
   question3: "Window Size?",
