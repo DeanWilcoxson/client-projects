@@ -42,7 +42,7 @@ export const OptionText = styled.a`
   }
 `;
 export const OptionImage = styled.img`
-  width: 65%;
+  width: 52.5%;
   border-radius: 10%;
   margin: 1rem;
   box-shadow: grey 5px 5px 5px;

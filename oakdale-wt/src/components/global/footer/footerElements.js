@@ -10,6 +10,10 @@ export const FooterContainer = styled.div`
   width: 100%;
   background-color: #252525;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 export const FooterText = styled.p`
   color: white;
@@ -24,4 +28,22 @@ export const FooterBusinessInfoBox = styled.div`
   display: flex;
   justify-content: space-evenly;
   margin-top: 1.5rem;
+`;
+export const FooterBusinessHoursList = styled.ul`
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+`;
+export const FooterBusinessHourItem = styled.li`
+  list-style-type: none;
+  color: darkgrey;
+  font-weight: bold;
+`;
+export const FooterBusinessHourItemValue = styled.p`
+  color: white;
+  padding: 5px;
+  font-weight: 100;
 `;

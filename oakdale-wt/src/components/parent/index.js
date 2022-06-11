@@ -22,31 +22,39 @@ export const Parent = ({ data }) => {
         <ParentTitle>{data.compname}</ParentTitle>
         <ParentBody>
           <ParentDescription>{data.intro}</ParentDescription>
-          <ParentForm>
+          <ParentForm id={data.id}>
             <ParentQuestionBox>
               <QuestionBox id={questionId}>
                 <ParentQuestion>{data.question1}</ParentQuestion>
-                <ParentFormInput></ParentFormInput>
+                <ParentFormInput type="text" required></ParentFormInput>
               </QuestionBox>
               <QuestionBox id={questionId}>
                 <ParentQuestion>{data.question2}</ParentQuestion>
-                <ParentFormInput></ParentFormInput>
+                <ParentFormInput type="text" required></ParentFormInput>
               </QuestionBox>
               <QuestionBox id={questionId}>
                 <ParentQuestion>{data.question3}</ParentQuestion>
-                <ParentFormInput></ParentFormInput>
+                <ParentFormInput type="text" required></ParentFormInput>
               </QuestionBox>
               <QuestionBox id={questionId}>
                 <ParentQuestion>{data.question4}</ParentQuestion>
-                <ParentFormInput></ParentFormInput>
+                <ParentFormInput type="text" required></ParentFormInput>
               </QuestionBox>
               <QuestionBox id={questionId}>
                 <ParentQuestion>{data.question5}</ParentQuestion>
-                <ParentFormInput></ParentFormInput>
+                <ParentFormInput type="tel" required></ParentFormInput>
               </QuestionBox>
               <QuestionBox>
                 <ParentQuestion>{data.comments}</ParentQuestion>
-                <ParentCommentBox></ParentCommentBox>
+                <ParentCommentBox
+                  name="comments"
+                  cols={40}
+                  rows={5}
+                  maxlength="200"
+                  form={data.id}
+                  placeholder="Please add any special directions and/ or special requests for your vehicle."
+                  wrap="soft"
+                ></ParentCommentBox>
               </QuestionBox>
             </ParentQuestionBox>
             <ParentSubmitButton>Submit</ParentSubmitButton>
