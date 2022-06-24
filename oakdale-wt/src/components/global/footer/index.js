@@ -7,10 +7,12 @@ import {
   FooterBusinessHoursList,
   FooterBusinessHourItem,
   FooterBusinessHourItemValue,
+  FooterEstimate,
 } from "./footerElements";
 const Footer = () => {
   return (
     <FooterContainer>
+      <FooterEstimate>Free Estimates!! Call Anytime!!</FooterEstimate>
       <FooterBusinessInfoBox>
         <FooterText>
           <FooterBold>Address:</FooterBold>

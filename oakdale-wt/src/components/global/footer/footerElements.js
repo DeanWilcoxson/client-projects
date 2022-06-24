@@ -18,16 +18,16 @@ export const FooterContainer = styled.div`
 export const FooterText = styled.p`
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 5px;
 `;
 export const FooterBold = styled.b`
-  padding: 15px;
+  margin: 10px;
   color: darkgrey;
 `;
 export const FooterBusinessInfoBox = styled.div`
   display: flex;
   justify-content: space-evenly;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 `;
 export const FooterBusinessHoursList = styled.ul`
   width: 50%;
@@ -46,4 +46,14 @@ export const FooterBusinessHourItemValue = styled.p`
   color: white;
   padding: 5px;
   font-weight: 100;
+`;
+export const FooterEstimate = styled.p`
+  background-color: yellow;
+  width: 100%;
+  padding: 2.5px;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
+  z-index: 10;
 `;
