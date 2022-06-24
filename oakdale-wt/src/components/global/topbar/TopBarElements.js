@@ -13,42 +13,24 @@ export const TopContainer = styled.div`
   z-index: 1000;
   background-color: white;
   @media screen and (max-width: 400px) {
-    .above-400-width {
-      display: none;
-    }
-    
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-
-    #mob-nav-icon {
-      padding: 10px;
-      color: black;
-      font-weight: 900;
-      font-size: 1.2em;
-      a {
-        text-decoration: none;
-        background-color: #FA6B0A;
-        margin: 6px;
-        padding: 10px;
-        border-radius: 10px;
-        text-align: center;
-        :visited {color: inherit}
-      }
-    }
-
-    #mob-nav-links {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      z-index: 1000;
-    }
   }
 `;
+export const Topbar = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+`;
 export const LandingLogo = styled.img`
-  width: 20%;
+  width: 15%;
   cursor: pointer;
-  margin-bottom: 5px;
+  margin: 5px;
+  margin-left: 5rem;
+  @media screen and (max-width: 768px) {
+    width: 30%;
+    margin-left: 2rem;
+  }
 `;
 export const HorizontalRule = styled.hr`
   width: 90%;

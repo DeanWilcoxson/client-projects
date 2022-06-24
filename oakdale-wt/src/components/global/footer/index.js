@@ -8,6 +8,9 @@ import {
   FooterBusinessHourItem,
   FooterBusinessHourItemValue,
   FooterEstimate,
+  FooterCopyright
+  // MobileFooterAddressIcon,
+  // MobileFooterPhoneIcon,
 } from "./footerElements";
 const Footer = () => {
   return (
@@ -67,9 +70,9 @@ const Footer = () => {
           </FooterBusinessHourItemValue>
         </FooterBusinessHourItem>
       </FooterBusinessHoursList>
-      <FooterText>
+      <FooterCopyright>
         <FooterBold>&copy; Dean Wilcoxson/ Bryan Huffstutler 2022</FooterBold>
-      </FooterText>
+      </FooterCopyright>
     </FooterContainer>
   );
 };

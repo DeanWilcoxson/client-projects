@@ -2,7 +2,6 @@
 import styled from "styled-components";
 import "./../../../notes/50 Blizzards.ttf";
 export const LandingContainer = styled.div`
-  /* position: absolute; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,11 +12,20 @@ export const LandingContainer = styled.div`
 export const LandingBox = styled.div`
   display: flex;
   flex-direction: row;
-  margin: 3.37rem;
+  margin: 4rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+  }
 `;
 export const OptionBox = styled.div`
   width: 33.3%;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    width: 50%;
+  }
 `;
 export const Option = styled.div`
   width: 105%;
@@ -42,7 +50,7 @@ export const OptionText = styled.a`
   }
 `;
 export const OptionImage = styled.img`
-  width: 52.5%;
+  width: 55%;
   border-radius: 10%;
   margin: 1rem;
   box-shadow: grey 5px 5px 5px;
