@@ -1,11 +1,20 @@
 import React from "react";
 import logo from "./../../../images/OakdaleWindowTintLogo.jpg";
-import { TopContainer, LandingLogo, HorizontalRule } from "./TopBarElements";
+import {
+  TopContainer,
+  LandingLogo,
+  HorizontalRule,
+  Topbar,
+} from "./TopBarElements";
+import MobileNav from "./mobile-nav";
 
 export const TopBar = () => {
   return (
     <TopContainer>
-      <LandingLogo src={logo} />
+      <Topbar>
+        <LandingLogo src={logo} />
+        <MobileNav />
+      </Topbar>
       <HorizontalRule />
     </TopContainer>
   );

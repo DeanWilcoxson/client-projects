@@ -12,11 +12,25 @@ export const TopContainer = styled.div`
   position: sticky;
   z-index: 1000;
   background-color: white;
+  @media screen and (max-width: 400px) {
+  }
+`;
+export const Topbar = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 `;
 export const LandingLogo = styled.img`
-  width: 20%;
+  width: 15%;
   cursor: pointer;
-  margin-bottom: 5px;
+  margin: 5px;
+  margin-left: 5rem;
+  @media screen and (max-width: 768px) {
+    width: 30%;
+    margin-left: 2rem;
+  }
 `;
 export const HorizontalRule = styled.hr`
   width: 90%;

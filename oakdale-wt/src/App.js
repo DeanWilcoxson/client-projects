@@ -8,19 +8,20 @@ import Footer from "./components/global/footer";
 import ResidentialGallery from "./components/parent/Residential/ResidentialGallery";
 import ResidentialContact from "./components/parent/Residential/ResidentialContact";
 import { TopBar } from "./components/global/topbar";
-import {Error} from './components/global/error'
+import { Error } from './components/global/error'
 
 const App = () => {
   return (
     <div>
-      <TopBar />
+
       <Router>
+        <TopBar />
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/automotive" element={<Automotive />} />
           <Route path="/commercial" element={<Commercial />} />
           <Route path="/residential" element={<Residential />} />
-          <Route path='*' element={<Error />}/>
+          <Route path='*' element={<Error />} />
 
           {/* RESIDENTIAL ROUTES -- unable to get browserrouter to work on Resi Home, will revisit later */}
           <Route path="/residential/gallery" element={<ResidentialGallery />} />
