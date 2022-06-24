@@ -1,14 +1,16 @@
-// import { VideoBg, HeroBg } from "./video/videoElements.js";
-
-// import video from "./video/car-closeup.mp4";
-
-// <HeroBg>
-//   <VideoBg autoPlay loop muted src={video} type="video/mp4" />
-// </HeroBg>;
-import React from 'react'
+import React from "react";
+import { Parent } from "../index.js";
+import { AutoData } from "./../data";
+// import { VideoBg, HeroBg } from "./../../../video/videoElements.js";
+// import video from "./../../../video/car-closeup.mp4";
 
 const Automotive = () => {
-    return <h1>AUTOMOTIVE PARENT</h1>
-}
+  console.log(AutoData);
 
-export default Automotive
+  return <Parent data={AutoData} />;
+};
+
+export default Automotive;
+// <HeroBg>
+//   <VideoBg autoPlay loop muted src={video} type="video/mp4" />
+// </HeroBg>

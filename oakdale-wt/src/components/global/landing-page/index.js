@@ -1,25 +1,21 @@
 import React from "react";
+// import {Routes, Route} from 'react-router-dom'
 import {
   LandingContainer,
-  LandingLogo,
   LandingBox,
   OptionBox,
   Option,
   OptionText,
   OptionImage,
-  HorizontalRule,
 } from "./HeroElements";
 import car from "./../../../images/CarTint.jpg";
 import house from "./../../../images/ResidentialTint.jpg";
 import business from "./../../../images/BusinessTint.jpg";
-import logo from "./../../../images/OakdaleWindowTintLogo.jpg";
 import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
     <LandingContainer>
-      <LandingLogo src={logo} />
-      <HorizontalRule />
       <LandingBox>
         <OptionBox>
           <Link to="/automotive">

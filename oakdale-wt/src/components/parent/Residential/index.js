@@ -1,25 +1,24 @@
-import React from 'react'
-import houseTint from '../../../images/HouseTint.jpg'
-import Sidebar from '../../global/sidebar'
-import ContactFormResidential from './ContactFormResidential'
-import ResidentialGallery from './ResidentialGallery'
+import React from "react";
+import { Parent } from "../index.js";
+import { ResiData } from "../data.js";
+// import houseTint from "../../../images/HouseTint.jpg";
+// import Sidebar from "../../global/sidebar";
+// import ContactFormResidential from "./ContactFormResidential";
+// import ResidentialGallery from "./ResidentialGallery";
 
 const Residential = () => {
-    const links = [
-        {
-            endpoint: '/contact',
-            name: 'Contact'
-        },
-        {
-            endpoint: '/residential/gallery',
-            name: 'Gallery'
-        }]
+  // const links = [
+  //   {
+  //     endpoint: "/contact",
+  //     name: "Contact",
+  //   },
+  //   {
+  //     endpoint: "/residential/gallery",
+  //     name: "Gallery",
+  //   },
+  // ];
 
-    return (
-        <div>
-            <h1>Residential</h1>
-        </div>
-    )
-}
+  return <Parent data={ResiData} />;
+};
 
-export default Residential
+export default Residential;
