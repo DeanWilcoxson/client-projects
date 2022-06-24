@@ -23,50 +23,78 @@ export const ParentBody = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
 `;
 export const ParentDescription = styled.p`
-  width: 50%;
+  width: 60%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
-  font-size: 2.5vh;
+  font-size: 3.15vh;
+  background-color: #d3d3d379;
+  padding: 2rem;
 `;
 export const ParentForm = styled.form`
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 export const ParentFormInput = styled.input`
   background-color: #25252525;
   border: solid 1px grey;
   border-radius: 5px;
+  /* grid-column: 1/2; */
 `;
 export const ParentQuestionBox = styled.div`
   margin: 1.25rem;
   border: 1px solid grey;
   border-radius: 5px;
-  width: 20%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: 0.25rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 export const QuestionBox = styled.div`
   padding: 5px;
+  text-align: center;
 `;
 export const ParentQuestion = styled.p`
   color: #253545b2;
   font-weight: bolder;
+  @media screen and (max-width: 768px) {
+    font-size: 2.5vh;
+  }
 `;
 export const ParentCommentBox = styled.textarea`
+  width: 100%;
+  font-size: 2.15vh;
   background-color: #25252525;
   border-radius: 5px;
   border: solid 1px grey;
+  @media screen and (max-width: 768px) {
+    font-size: 3.5vh;
+    width: 100%;
+  }
 `;
 export const ParentSubmitButton = styled.button`
-  padding: 5px;
+  padding: 0.5rem;
   &:hover {
+    padding: 0.56rem;
     color: white;
     background-color: green;
     border-radius: 2.5px;

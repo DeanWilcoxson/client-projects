@@ -44,19 +44,19 @@ export const Parent = ({ data }) => {
                 <ParentQuestion>{data.question5}</ParentQuestion>
                 <ParentFormInput type="tel" required></ParentFormInput>
               </QuestionBox>
-              <QuestionBox>
-                <ParentQuestion>{data.comments}</ParentQuestion>
-                <ParentCommentBox
-                  name="comments"
-                  cols={40}
-                  rows={5}
-                  maxlength="200"
-                  form={data.id}
-                  placeholder={data.placeholderText}
-                  wrap="soft"
-                ></ParentCommentBox>
-              </QuestionBox>
             </ParentQuestionBox>
+            <QuestionBox>
+              <ParentQuestion>{data.comments}</ParentQuestion>
+              <ParentCommentBox
+                name="comments"
+                cols={40}
+                rows={5}
+                maxlength="200"
+                form={data.id}
+                placeholder={data.placeholderText}
+                wrap="soft"
+              ></ParentCommentBox>
+            </QuestionBox>
             <ParentSubmitButton>Submit</ParentSubmitButton>
           </ParentForm>
         </ParentBody>
