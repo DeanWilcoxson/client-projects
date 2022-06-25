@@ -51,7 +51,6 @@ export const ParentFormInput = styled.input`
   background-color: #25252525;
   border: solid 1px grey;
   border-radius: 5px;
-  /* grid-column: 1/2; */
 `;
 export const ParentQuestionBox = styled.div`
   margin: 1.25rem;
