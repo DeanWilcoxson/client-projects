@@ -6,7 +6,7 @@ import {
   HorizontalRule,
   Topbar,
 } from "./TopBarElements";
-import MobileNav from "./mobile-nav";
+import MobileNav from "./mobileNavbar";
 
 export const TopBar = () => {
   return (

@@ -13,6 +13,7 @@ export const FooterContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 12px;
 `;
 export const FooterText = styled.p`
   color: white;
@@ -57,7 +58,7 @@ export const FooterBusinessHourItem = styled.li`
   list-style-type: none;
   color: darkgrey;
   font-weight: bold;
-  padding: 1rem;
+  padding: .5rem;
   @media screen and (max-width: 768px) {
     font-size: 12px;
     padding: 0.5rem;

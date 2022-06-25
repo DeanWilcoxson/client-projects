@@ -12,7 +12,7 @@ export const LandingContainer = styled.div`
 export const LandingBox = styled.div`
   display: flex;
   flex-direction: row;
-  margin: 4rem;
+  margin: 2.5rem;
   @media screen and (max-width: 768px) {
     flex-direction: row;
     justify-content: flex-start;
@@ -28,7 +28,7 @@ export const OptionBox = styled.div`
   }
 `;
 export const Option = styled.div`
-  width: 105%;
+  width: 90%;
   color: #253545b2;
   display: flex;
   flex-direction: column;
@@ -50,9 +50,9 @@ export const OptionText = styled.a`
   }
 `;
 export const OptionImage = styled.img`
-  width: 55%;
+  width: 60%;
   border-radius: 10%;
-  margin: 1rem;
+  margin: .25rem;
   box-shadow: grey 5px 5px 5px;
   &:hover {
     box-shadow: #008000ab -2.5px 2.5px 5px, #008000ab 2.5px -2.5px 5px;
