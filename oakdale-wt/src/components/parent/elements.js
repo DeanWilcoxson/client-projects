@@ -19,10 +19,11 @@ export const ParentTitle = styled.h1`
 `;
 export const ParentBody = styled.div`
   margin: 1rem;
+  padding: 1rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   @media screen and (max-width: 768px) {
     flex-direction: row;
     justify-content: center;
@@ -30,14 +31,15 @@ export const ParentBody = styled.div`
   }
 `;
 export const ParentDescription = styled.p`
-  width: 60%;
+  width: 30%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
-  font-size: 3.15vh;
+  font-size: 2.75vh;
   background-color: #d3d3d379;
   padding: 2rem;
 `;
 export const ParentForm = styled.form`
+
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -51,10 +53,9 @@ export const ParentFormInput = styled.input`
   background-color: #25252525;
   border: solid 1px grey;
   border-radius: 5px;
-  /* grid-column: 1/2; */
 `;
 export const ParentQuestionBox = styled.div`
-  margin: 1.25rem;
+  /* margin: 1.25rem; */
   border: 1px solid grey;
   border-radius: 5px;
   width: 50%;
