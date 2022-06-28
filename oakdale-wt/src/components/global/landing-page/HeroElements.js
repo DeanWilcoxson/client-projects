@@ -29,7 +29,7 @@ export const OptionBox = styled.div`
 `;
 export const Option = styled.div`
   width: 90%;
-  color: #253545b2;
+  color: #5a6672;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,10 +41,12 @@ export const Option = styled.div`
 `;
 export const OptionText = styled.a`
   text-decoration: none;
-  font-style: italic;
   font-family: "50 Blizzards";
-  font-size: 20px;
-  text-shadow: #25354576 1px 1px 2px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  text-shadow: #80808091 1px 1px 2px;
   &:hover {
     color: #008000ab;
   }
@@ -52,8 +54,8 @@ export const OptionText = styled.a`
 export const OptionImage = styled.img`
   width: 60%;
   border-radius: 10%;
-  margin: .25rem;
-  box-shadow: grey 5px 5px 5px;
+  margin: 0.25rem;
+  box-shadow: #5a6672 2px 2px 4px;
   &:hover {
     box-shadow: #008000ab -2.5px 2.5px 5px, #008000ab 2.5px -2.5px 5px;
   }
