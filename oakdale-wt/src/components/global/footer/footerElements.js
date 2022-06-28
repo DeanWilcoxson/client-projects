@@ -89,7 +89,7 @@ export const FooterEstimate = styled.p`
 export const FooterCopyright = styled.p`
   color: white;
   text-align: center;
-  /* padding: 0.5rem; */
+  padding-bottom: 1.25rem;
   @media screen and (max-width: 768px) {
     font-size: 12px;
   }

@@ -6,13 +6,14 @@ export const LandingContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  /* margin-top: 1.25em; */
+  padding: 2rem;
 `;
 export const LandingBox = styled.div`
   display: flex;
   flex-direction: row;
-  margin: 2.5rem;
+  margin: 2rem;
+  padding-bottom: 1.8rem;
   @media screen and (max-width: 768px) {
     flex-direction: row;
     justify-content: flex-start;
@@ -23,6 +24,7 @@ export const LandingBox = styled.div`
 export const OptionBox = styled.div`
   width: 33.3%;
   text-align: center;
+  margin-bottom: 2.5rem;
   @media screen and (max-width: 768px) {
     width: 50%;
   }
@@ -54,7 +56,7 @@ export const OptionText = styled.a`
 export const OptionImage = styled.img`
   width: 60%;
   border-radius: 10%;
-  margin: 0.25rem;
+  /* margin: 0.75rem; */
   box-shadow: #5a6672 2px 2px 4px;
   &:hover {
     box-shadow: #008000ab -2.5px 2.5px 5px, #008000ab 2.5px -2.5px 5px;
