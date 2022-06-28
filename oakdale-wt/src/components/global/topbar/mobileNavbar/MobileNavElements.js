@@ -32,4 +32,7 @@ export const MobileIconHamburgerToggle = styled(GiHamburgerMenu)`
   margin-right: 3rem;
   color: #253545b2;
 `;
-export const MobileIconHamburgerToggleContainer = styled.div``;
+export const MobileIconHamburgerToggleContainer = styled.div`
+  padding: 5px;
+  margin-top: 25px;
+`;

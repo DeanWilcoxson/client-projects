@@ -21,7 +21,7 @@ const Landing = () => {
           <Link to="/automotive">
             <Option>
               <OptionImage src={car} />
-              <OptionText>Automotive</OptionText>
+              <OptionText>AUTOMOTIVE</OptionText>
             </Option>
           </Link>
         </OptionBox>
@@ -30,7 +30,7 @@ const Landing = () => {
           <Link to="/commercial">
             <Option>
               <OptionImage src={business} />
-              <OptionText>Commercial</OptionText>
+              <OptionText>COMMERCIAL</OptionText>
             </Option>
           </Link>
         </OptionBox>
@@ -39,7 +39,7 @@ const Landing = () => {
           <Link to="/residential">
             <Option>
               <OptionImage src={house} />
-              <OptionText>Residential</OptionText>
+              <OptionText>RESIDENTIAL</OptionText>
             </Option>
           </Link>
         </OptionBox>
