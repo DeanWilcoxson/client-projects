@@ -33,5 +33,5 @@ export const LandingLogo = styled.img`
   }
 `;
 export const HorizontalRule = styled.hr`
-  width: 90%;
+  width: 99%;
 `;
