@@ -6,9 +6,10 @@ import {
   FooterBusinessInfoBox,
   FooterBusinessHoursList,
   FooterBusinessHourItem,
+  FooterBusinessHourKey,
   FooterBusinessHourItemValue,
   FooterEstimate,
-  FooterCopyright
+  FooterCopyright,
   // MobileFooterAddressIcon,
   // MobileFooterPhoneIcon,
 } from "./footerElements";
@@ -28,43 +29,43 @@ const Footer = () => {
       </FooterBusinessInfoBox>
       <FooterBusinessHoursList>
         <FooterBusinessHourItem>
-          Monday:
+          <FooterBusinessHourKey>Monday:</FooterBusinessHourKey>
           <FooterBusinessHourItemValue>
             Appointment Only
           </FooterBusinessHourItemValue>
         </FooterBusinessHourItem>
         <FooterBusinessHourItem>
-          Tuesday:
+          <FooterBusinessHourKey>Tuesday:</FooterBusinessHourKey>
           <FooterBusinessHourItemValue>
             9:00am - 5:00pm
           </FooterBusinessHourItemValue>
         </FooterBusinessHourItem>
         <FooterBusinessHourItem>
-          Wednesday:
+          <FooterBusinessHourKey>Wednesday:</FooterBusinessHourKey>
           <FooterBusinessHourItemValue>
             9:00am - 5:00pm
           </FooterBusinessHourItemValue>
         </FooterBusinessHourItem>
         <FooterBusinessHourItem>
-          Thursday:
+          <FooterBusinessHourKey>Thursday:</FooterBusinessHourKey>
           <FooterBusinessHourItemValue>
             9:00am - 5:00pm
           </FooterBusinessHourItemValue>
         </FooterBusinessHourItem>
         <FooterBusinessHourItem>
-          Friday:
+          <FooterBusinessHourKey>Friday:</FooterBusinessHourKey>
           <FooterBusinessHourItemValue>
             9:00am - 5:00pm
           </FooterBusinessHourItemValue>
         </FooterBusinessHourItem>
         <FooterBusinessHourItem>
-          Saturday:
+          <FooterBusinessHourKey>Saturday:</FooterBusinessHourKey>
           <FooterBusinessHourItemValue>
             9:00am - 5:00pm
           </FooterBusinessHourItemValue>
         </FooterBusinessHourItem>
         <FooterBusinessHourItem>
-          Sunday:
+          <FooterBusinessHourKey>Sunday:</FooterBusinessHourKey>
           <FooterBusinessHourItemValue>
             Appointment Only
           </FooterBusinessHourItemValue>

@@ -6,7 +6,6 @@ export const LandingContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-top: 1.25em; */
   padding: 2rem;
 `;
 export const LandingBox = styled.div`
@@ -14,19 +13,36 @@ export const LandingBox = styled.div`
   flex-direction: row;
   margin: 2rem;
   padding-bottom: 1.8rem;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     margin: 1rem;
   }
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  
+  }
 `;
 export const OptionBox = styled.div`
+  display: flex;
+  flex-direction: row;
   width: 33.3%;
   text-align: center;
-  margin-bottom: 2.5rem;
-  @media screen and (max-width: 768px) {
+  /* margin-bottom: 2.5rem; */
+  @media screen and (max-width: 769px) {
     width: 50%;
+  }
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 `;
 export const Option = styled.div`
@@ -40,6 +56,9 @@ export const Option = styled.div`
   &:hover {
     color: #008000ab;
   }
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+  }
 `;
 export const OptionText = styled.a`
   text-decoration: none;
@@ -52,13 +71,21 @@ export const OptionText = styled.a`
   &:hover {
     color: #008000ab;
   }
+  @media screen and (max-width: 769px) {
+    font-size: 1.25rem;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 1.25rem;
+  }
 `;
 export const OptionImage = styled.img`
   width: 60%;
   border-radius: 10%;
-  /* margin: 0.75rem; */
   box-shadow: #5a6672 2px 2px 4px;
   &:hover {
     box-shadow: #008000ab -2.5px 2.5px 5px, #008000ab 2.5px -2.5px 5px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 100%;
   }
 `;
