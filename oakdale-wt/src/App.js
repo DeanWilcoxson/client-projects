@@ -10,9 +10,10 @@ import ResidentialContact from "./components/parent/Residential/ResidentialConta
 import { TopBar } from "./components/global/topbar";
 import { Error } from "./components/global/error";
 
+
 const App = () => {
   return (
-    <div className="app-container">
+    <div>
       <Router>
         <TopBar />
         <Routes>

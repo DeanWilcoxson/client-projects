@@ -14,6 +14,7 @@ import {
   ParentCommentBox,
   QuestionBox,
 } from "./elements";
+
 export const Parent = ({ data }) => {
   const questionId = uuidv4();
   return (
