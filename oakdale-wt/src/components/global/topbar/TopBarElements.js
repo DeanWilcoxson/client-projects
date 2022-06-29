@@ -31,8 +31,8 @@ export const LandingLogo = styled.img`
   cursor: pointer;
   margin: 5px;
   margin-left: 5rem;
-  @media screen and (max-width: 769px) {
-    width: 40%;
+  @media screen and (max-width: 770px) {
+    width: 35%;
     margin-left: 1rem;
   }
   @media screen and (max-width: 400px) {

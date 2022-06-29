@@ -31,6 +31,40 @@ export const FooterBusinessInfoBox = styled.ul`
     align-items: flex-start;
   }
 `;
+export const FooterBusinessInfoItem = styled.li`
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  color: darkgrey;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.5rem;
+  @media screen and (max-width: 769px) {
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+  @media screen and (max-width: 400px) {
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  }
+`;
+export const FooterBusinessInfoKey = styled.p`
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: darkgrey;
+`;
+export const FooterBusinessInfoValue = styled.p`
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  @media screen and (max-width: 400px) {
+    font-size: 1rem;
+  }
+`;
 export const FooterBusinessHoursList = styled.ul`
   width: 100%;
   display: flex;
@@ -48,17 +82,7 @@ export const FooterBusinessHoursList = styled.ul`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-  }
-`;
-export const FooterText = styled.p`
-  color: white;
-  text-align: center;
-  font-size: 1rem;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  @media screen and (max-width: 400px) {
-    font-size: 1rem;
+    align-items: center;
   }
 `;
 export const FooterBold = styled.b`
@@ -73,7 +97,6 @@ export const FooterBusinessHourItem = styled.li`
   list-style-type: none;
   color: darkgrey;
   font-weight: bold;
-  padding: 0.5rem;
   font-size: 1rem;
   margin: 0.5rem;
   @media screen and (max-width: 769px) {

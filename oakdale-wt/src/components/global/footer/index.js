@@ -1,7 +1,7 @@
 import React from "react";
 import {
   FooterContainer,
-  FooterText,
+  // FooterText,
   FooterBold,
   FooterBusinessInfoBox,
   FooterBusinessHoursList,
@@ -10,6 +10,9 @@ import {
   FooterBusinessHourItemValue,
   FooterEstimate,
   FooterCopyright,
+  FooterBusinessInfoItem,
+  FooterBusinessInfoKey,
+  FooterBusinessInfoValue,
   // MobileFooterAddressIcon,
   // MobileFooterPhoneIcon,
 } from "./footerElements";
@@ -18,14 +21,18 @@ const Footer = () => {
     <FooterContainer>
       <FooterEstimate>Free Estimates!! Call Anytime!!</FooterEstimate>
       <FooterBusinessInfoBox>
-        <FooterText>
-          <FooterBold>Address:</FooterBold>
-          924B West F St. Oakdale, CA 95361
-        </FooterText>
-        <FooterText>
-          <FooterBold>Phone:</FooterBold>
-          +1 (209) - 390 - 2578
-        </FooterText>
+        <FooterBusinessInfoItem>
+          <FooterBusinessInfoKey>Address:</FooterBusinessInfoKey>
+          <FooterBusinessInfoValue>
+            924B West F St. Oakdale, CA 95361
+          </FooterBusinessInfoValue>
+        </FooterBusinessInfoItem>
+        <FooterBusinessInfoItem>
+          <FooterBusinessInfoKey>Phone:</FooterBusinessInfoKey>
+          <FooterBusinessInfoValue>
+            +1 (209) - 390 - 2578
+          </FooterBusinessInfoValue>
+        </FooterBusinessInfoItem>
       </FooterBusinessInfoBox>
       <FooterBusinessHoursList>
         <FooterBusinessHourItem>
