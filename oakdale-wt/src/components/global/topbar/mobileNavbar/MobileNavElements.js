@@ -4,8 +4,10 @@ import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 export const MobileIconContainer = styled.div`
   visibility: hidden;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 770px) {
     visibility: visible;
+  }
+  @media screen and (max-width: 400px) {
   }
 `;
 export const MobileLinksContainer = styled.div`

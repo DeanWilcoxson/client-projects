@@ -24,7 +24,7 @@ export const ParentBody = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
@@ -45,7 +45,7 @@ export const ParentForm = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     width: 100%;
   }
 `;
@@ -63,7 +63,7 @@ export const ParentQuestionBox = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     width: 90%;
     margin: 0.25rem;
     display: grid;
@@ -77,7 +77,7 @@ export const QuestionBox = styled.div`
 export const ParentQuestion = styled.p`
   color: #253545b2;
   font-weight: bolder;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     font-size: 2.5vh;
   }
 `;
@@ -87,7 +87,7 @@ export const ParentCommentBox = styled.textarea`
   background-color: #25252525;
   border-radius: 5px;
   border: solid 1px grey;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 769px) {
     font-size: 3.5vh;
     width: 100%;
   }
