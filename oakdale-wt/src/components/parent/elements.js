@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const ParentContainer = styled.div`
   width: 100%;
   display: flex;

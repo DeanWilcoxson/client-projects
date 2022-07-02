@@ -1,4 +1,3 @@
-// import {Route} from "react-router-dom";
 import styled from "styled-components";
 import "./../../../notes/50 Blizzards.ttf";
 export const LandingContainer = styled.div`
