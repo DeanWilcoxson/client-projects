@@ -7,7 +7,6 @@ import {
   MobileIconHamburgerToggle,
   MobileIconHamburgerToggleContainer,
 } from "./MobileNavElements";
-
 const MobileNav = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -41,5 +40,4 @@ const MobileNav = () => {
     </MobileIconContainer>
   );
 };
-
 export default MobileNav;

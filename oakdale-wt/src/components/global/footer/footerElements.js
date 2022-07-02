@@ -33,12 +33,12 @@ export const FooterBusinessInfoBox = styled.ul`
 `;
 export const FooterBusinessInfoItem = styled.li`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   list-style-type: none;
   color: darkgrey;
   font-weight: bold;
   font-size: 1rem;
-  margin: 0.5rem;
+  /* margin: 0.5rem; */
   @media screen and (max-width: 769px) {
     font-size: 12px;
     padding: 0.5rem;
@@ -66,7 +66,7 @@ export const FooterBusinessInfoValue = styled.p`
   }
 `;
 export const FooterBusinessHoursList = styled.ul`
-  width: 100%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -82,14 +82,8 @@ export const FooterBusinessHoursList = styled.ul`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
-`;
-export const FooterBold = styled.b`
-  margin: 0.5rem;
-  padding: 0.5rem;
-  font-size: 1rem;
-  color: darkgrey;
 `;
 export const FooterBusinessHourItem = styled.li`
   display: flex;
@@ -117,7 +111,7 @@ export const FooterBusinessHourKey = styled.p`
 `;
 export const FooterBusinessHourItemValue = styled.p`
   color: white;
-  font-weight: 100;
+  font-weight: 700;
   padding: 0.5rem;
   margin: 0.5rem;
   @media screen and (max-width: 400px) {
@@ -146,6 +140,12 @@ export const FooterCopyright = styled.p`
   }
   @media screen and (max-width: 400px) {
   }
+`;
+export const FooterBold = styled.b`
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: darkgrey;
 `;
 // export const MobileFooterPhoneIcon = styled(FaPhoneAlt)``;
 // export const MobileFooterAddressIcon = styled(MdBusiness)``;
