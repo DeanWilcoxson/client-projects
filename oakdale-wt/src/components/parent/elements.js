@@ -5,7 +5,7 @@ export const ParentContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     width: 100%;
   }
 `;
@@ -31,7 +31,7 @@ export const ParentBody = styled.div`
     justify-content: center;
     align-items: flex-start;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +45,7 @@ export const ParentDescription = styled.p`
   font-size: 2.75vh;
   background-color: #d3d3d379;
   padding: 2rem;
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     width: 70%;
   }
 `;
@@ -58,7 +58,7 @@ export const ParentForm = styled.form`
   @media screen and (max-width: 769px) {
     width: 100%;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     padding: 0.5em;
     width: 80%;
     flex-direction: column;
@@ -85,7 +85,7 @@ export const ParentQuestionBox = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     width: 100%;
   }
 `;
@@ -110,7 +110,7 @@ export const ParentCommentBox = styled.textarea`
     font-size: 3.5vh;
     width: 100%;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     width: 70%;
   }
 `;

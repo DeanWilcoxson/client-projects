@@ -25,7 +25,7 @@ export const FooterBusinessInfoBox = styled.ul`
     justify-content: center;
     align-items: center;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -43,7 +43,7 @@ export const FooterBusinessInfoItem = styled.li`
     font-size: 12px;
     padding: 0.5rem;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     flex-direction: row;
     padding: 0;
     margin: 0;
@@ -61,7 +61,7 @@ export const FooterBusinessInfoValue = styled.p`
   font-size: 1rem;
   padding: 0.5rem;
   margin: 0.5rem;
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     font-size: 1rem;
   }
 `;
@@ -78,7 +78,7 @@ export const FooterBusinessHoursList = styled.ul`
     justify-items: center;
     grid-wrap: wrap;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +97,7 @@ export const FooterBusinessHourItem = styled.li`
     font-size: 12px;
     padding: 0.5rem;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     flex-direction: row;
     padding: 0;
     margin: 0;
@@ -114,7 +114,7 @@ export const FooterBusinessHourItemValue = styled.p`
   font-weight: 700;
   padding: 0.5rem;
   margin: 0.5rem;
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     margin: 0.5rem;
     padding: 0.5rem;
     font-size: 1rem;
@@ -138,7 +138,7 @@ export const FooterCopyright = styled.p`
   @media screen and (max-width: 769px) {
     font-size: 12px;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
   }
 `;
 export const FooterBold = styled.b`

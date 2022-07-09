@@ -22,7 +22,7 @@ export const Topbar = styled.div`
   @media screen and (max-width: 769px) {
     width: 90%;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     width: 100%;
   }
 `;
@@ -35,7 +35,7 @@ export const LandingLogo = styled.img`
     width: 35%;
     margin-left: 1rem;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     width: 50%;
   }
 `;

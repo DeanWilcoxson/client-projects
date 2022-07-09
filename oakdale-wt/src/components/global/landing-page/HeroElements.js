@@ -18,7 +18,7 @@ export const LandingBox = styled.div`
     align-items: center;
     margin: 1rem;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column;
     padding: 0;
     margin: 0;
@@ -34,7 +34,7 @@ export const OptionBox = styled.div`
   @media screen and (max-width: 769px) {
     width: 50%;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column;
     margin: 0;
     width: 100%;
@@ -53,7 +53,7 @@ export const Option = styled.div`
   &:hover {
     color: #008000ab;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column;
   }
 `;
@@ -72,7 +72,7 @@ export const OptionText = styled.a`
   @media screen and (max-width: 769px) {
     font-size: 1.25rem;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     font-size: 1.25rem;
   }
 `;
@@ -87,7 +87,7 @@ export const OptionImage = styled.img`
   @media screen and (max-width: 769px) {
     width: 100%;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     width: 100%;
   }
 `;
