@@ -1,16 +1,22 @@
 import React from "react";
 import {
   TopbarContainer,
+  TopbarLogo,
   TopbarHeader,
+  TopbarSubheader,
   TopbarNav,
   TopbarLink,
 } from "./topbarElements";
 const Topbar = () => {
   return (
     <TopbarContainer>
-      <TopbarNav>
+      <TopbarLogo>
         <TopbarHeader>Juicy Jays</TopbarHeader>
-        <TopbarLink></TopbarLink>
+        <TopbarSubheader>Tobacco & More</TopbarSubheader>
+      </TopbarLogo>
+      <TopbarNav>
+        <TopbarLink>Gallery</TopbarLink>
+        <TopbarLink>Contact</TopbarLink>
       </TopbarNav>
     </TopbarContainer>
   );
